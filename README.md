@@ -24,6 +24,18 @@ This project is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) appli
   - Next.js API routes
   - MongoDB for data storage (simulated in this version)
 
+## Dependencies:
+```bash
+  npm install react-chartjs-2 chart.js
+```
+- for shadcn/ui
+ ```bash
+  npx shadcn@latest add button
+npx shadcn@latest add card
+npx shadcn@latest add select
+npx shadcn@latest add table
+``` 
+
 ## video:
 https://github.com/user-attachments/assets/b08728ae-e295-4936-857a-da619f68c744
 
