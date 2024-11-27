@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Transaction Dashboard
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that provides a comprehensive transaction dashboard. It allows users to view, search, and analyze transaction data across different months.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Initialize database with seed data from a third-party API
+- Display transactions in a paginated table
+- Search functionality for transactions
+- Monthly statistics including total sales, sold items, and unsold items
+- Bar chart visualization of price range distribution
+- Responsive design for various screen sizes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Frontend:
+  - React.js
+  - Next.js (App Router)
+  - Chart.js for data visualization
+  - Tailwind CSS for styling
+  - shadcn/ui for UI components
+- Backend:
+  - Next.js API routes
+  - MongoDB for data storage (simulated in this version)
 
-## Learn More
+## video:
+https://github.com/user-attachments/assets/b08728ae-e295-4936-857a-da619f68c744
 
-To learn more about Next.js, take a look at the following resources:
+## ScreenShot:
+![Screenshot 2024-11-27 224116](https://github.com/user-attachments/assets/8d87e9a6-bf53-4933-be67-92a42fbd9253)
+![Screenshot 2024-11-27 224138](https://github.com/user-attachments/assets/aa7a00da-5c13-45c6-a509-239c65ac97f1)
+![Screenshot 2024-11-27 224240](https://github.com/user-attachments/assets/92e8f0f5-6f3e-4a9d-b21a-5fd88e8d3178)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
