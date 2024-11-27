@@ -10,7 +10,6 @@ This project is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) appli
 - Display transactions in a paginated table
 - Search functionality for transactions
 - Monthly statistics including total sales, sold items, and unsold items
-- Bar chart visualization of price range distribution
 - Responsive design for various screen sizes
 
 ## Technologies Used
